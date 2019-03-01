@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/9/25 10:54:10。
+     1>项目“H:\VS2015PROJECT\TCP\OperateWordTest\OperateWordTest\OperateWordTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Release\OperateWordTest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\VS\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\OperateWordTest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt MyWord.cpp OperateWordTest.cpp
+         MyWord.cpp
+         OperateWordTest.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"x64\Release\OperateWordTest.res" OperateWordTest.rc 
+       Link:
+         D:\Program Files\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\VS2015PROJECT\TCP\OperateWordTest\x64\Release\OperateWordTest.exe" /INCREMENTAL:NO /NOLOGO opencv_world341d.lib opencv_aruco341d.lib opencv_bgsegm341d.lib opencv_bioinspired341d.lib opencv_calib3d341d.lib opencv_ccalib341d.lib opencv_core341d.lib opencv_datasets341d.lib opencv_dpm341d.lib opencv_face341d.lib opencv_features2d341d.lib opencv_flann341d.lib opencv_fuzzy341d.lib opencv_highgui341d.lib opencv_imgcodecs341d.lib opencv_imgproc341d.lib opencv_line_descriptor341d.lib opencv_ml341d.lib opencv_objdetect341d.lib opencv_optflow341d.lib opencv_phase_unwrapping341d.lib opencv_photo341d.lib opencv_plot341d.lib opencv_reg341d.lib opencv_rgbd341d.lib opencv_saliency341d.lib opencv_shape341d.lib opencv_stereo341d.lib opencv_stitching341d.lib opencv_structured_light341d.lib opencv_superres341d.lib opencv_surface_matching341d.lib opencv_text341d.lib opencv_tracking341d.lib opencv_video341d.lib opencv_videoio341d.lib opencv_videostab341d.lib opencv_xfeatures2d341d.lib opencv_ximgproc341d.lib opencv_xobjdetect341d.lib opencv_xphoto341d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\VS\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"H:\VS2015PROJECT\TCP\OperateWordTest\x64\Release\OperateWordTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\VS2015PROJECT\TCP\OperateWordTest\x64\Release\OperateWordTest.lib" /MACHINE:X64 x64\Release\OperateWordTest.res
+         x64\Release\MyWord.obj
+         x64\Release\OperateWordTest.obj
+         x64\Release\stdafx.obj
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl CMy_Word_DLL::CMy_Word_DLL(void)" (??0CMy_Word_DLL@@QEAA@XZ)
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl CMy_Word_DLL::~CMy_Word_DLL(void)" (??1CMy_Word_DLL@@QEAA@XZ)
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: bool __cdecl CMy_Word_DLL::InitMyWordCOM(void)" (?InitMyWordCOM@CMy_Word_DLL@@QEAA_NXZ)
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: bool __cdecl CMy_Word_DLL::OpenMyWordDoc(class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >,int,int)" (?OpenMyWordDoc@CMy_Word_DLL@@QEAA_NV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@HH@Z)
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl CMy_Word_DLL::WriteWordDoc(class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >)" (?WriteWordDoc@CMy_Word_DLL@@QEAAXV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z)
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl CMy_Word_DLL::GetWordText(class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > &)" (?GetWordText@CMy_Word_DLL@@QEAAXAEAV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z)
+     1>OperateWordTest.obj : error LNK2001: 无法解析的外部符号 "public: bool __cdecl CMy_Word_DLL::CloseWordDoc(int)" (?CloseWordDoc@CMy_Word_DLL@@QEAA_NH@Z)
+     1>H:\VS2015PROJECT\TCP\OperateWordTest\x64\Release\OperateWordTest.exe : fatal error LNK1120: 7 个无法解析的外部命令
+     1>已完成生成项目“H:\VS2015PROJECT\TCP\OperateWordTest\OperateWordTest\OperateWordTest.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.12
