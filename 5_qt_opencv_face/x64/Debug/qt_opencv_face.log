@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/7/27 16:25:56。
+     1>项目“H:\VS2015PROJECT\qt_opencv_face\qt_opencv_face.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtFinalize:
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         D:\Program Files\VS\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles\Debug /I.\GeneratedFiles /I. /ID:\Qt\Qt5.10.0\5.10.0\msvc2015_64\include /ID:\Qt\Qt5.10.0\5.10.0\msvc2015_64\include\QtWidgets /ID:\Qt\Qt5.10.0\5.10.0\msvc2015_64\include\QtGui /ID:\Qt\Qt5.10.0\5.10.0\msvc2015_64\include\QtANGLE /ID:\Qt\Qt5.10.0\5.10.0\msvc2015_64\include\QtCore /Idebug /I\include /I"D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\mkspecs\win32-msvc" /Zi /nologo /W3 /WX- /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /wd4577 /wd4467 /errorReport:prompt -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 mainwindow.cpp
+         mainwindow.cpp
+     1>mainwindow.cpp(35): warning C4100: “event”: 未引用的形参
+     1>mainwindow.cpp(221): warning C4189: “modelPCA1”: 局部变量已初始化但不引用
+     1>mainwindow.cpp(232): warning C4189: “modelFisher1”: 局部变量已初始化但不引用
+       Link:
+         D:\Program Files\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\qt_opencv_face.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\lib D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\lib\qtmaind.lib shell32.lib D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\lib\Qt5Guid.lib D:\Qt\Qt5.10.0\5.10.0\msvc2015_64\lib\Qt5Cored.lib opencv_world341d.lib opencv_aruco341d.lib opencv_bgsegm341d.lib opencv_bioinspired341d.lib opencv_calib3d341d.lib opencv_ccalib341d.lib opencv_core341d.lib opencv_datasets341d.lib opencv_dpm341d.lib opencv_face341d.lib opencv_features2d341d.lib opencv_flann341d.lib opencv_fuzzy341d.lib opencv_highgui341d.lib opencv_imgcodecs341d.lib opencv_imgproc341d.lib opencv_line_descriptor341d.lib opencv_ml341d.lib opencv_objdetect341d.lib opencv_optflow341d.lib opencv_phase_unwrapping341d.lib opencv_photo341d.lib opencv_plot341d.lib opencv_reg341d.lib opencv_rgbd341d.lib opencv_saliency341d.lib opencv_shape341d.lib opencv_stereo341d.lib opencv_stitching341d.lib opencv_structured_light341d.lib opencv_superres341d.lib opencv_surface_matching341d.lib opencv_text341d.lib opencv_tracking341d.lib opencv_video341d.lib opencv_videoio341d.lib opencv_videostab341d.lib opencv_xfeatures2d341d.lib opencv_ximgproc341d.lib opencv_xobjdetect341d.lib opencv_xphoto341d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"debug\qt_opencv_face.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\moc_mainwindow.obj
+         qt_opencv_face.vcxproj -> H:\VS2015PROJECT\qt_opencv_face\debug\qt_opencv_face.exe
+     1>已完成生成项目“H:\VS2015PROJECT\qt_opencv_face\qt_opencv_face.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.79
