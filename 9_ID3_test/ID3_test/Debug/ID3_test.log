@@ -1,0 +1,16 @@
+﻿  ID3.cpp
+f:\vs2015project\id3_test\id3_test\id3.cpp(65): warning C4474: fscanf: 格式字符串中传递的参数太多
+  f:\vs2015project\id3_test\id3_test\id3.cpp(65): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+f:\vs2015project\id3_test\id3_test\id3.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(196): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(204): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(215): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(251): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(258): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(287): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(256): warning C4101: “temp_entropy”: 未引用的局部变量
+f:\vs2015project\id3_test\id3_test\id3.cpp(487): warning C4018: “<”: 有符号/无符号不匹配
+f:\vs2015project\id3_test\id3_test\id3.cpp(489): warning C4018: “<”: 有符号/无符号不匹配
+  ID3_test.vcxproj -> F:\VS2015PROJECT\ID3_test\Debug\ID3_test.exe
+  ID3_test.vcxproj -> F:\VS2015PROJECT\ID3_test\Debug\ID3_test.pdb (Partial PDB)
