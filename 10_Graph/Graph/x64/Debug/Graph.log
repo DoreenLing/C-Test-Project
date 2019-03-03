@@ -1,0 +1,22 @@
+﻿生成启动时间为 2018/11/6 9:24:51。
+     1>项目“H:\VS2015PROJECT\Graph\Graph\Graph.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>h:\vs2015project\graph\graph\main.cpp(227): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(236): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(257): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(409): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(447): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(451): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(488): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(507): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>h:\vs2015project\graph\graph\main.cpp(521): warning C4715: “countAndSay”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\VS2015PROJECT\Graph\x64\Debug\Graph.exe" /INCREMENTAL /NOLOGO opencv_world341d.lib opencv_aruco341d.lib opencv_bgsegm341d.lib opencv_bioinspired341d.lib opencv_calib3d341d.lib opencv_ccalib341d.lib opencv_core341d.lib opencv_datasets341d.lib opencv_dpm341d.lib opencv_face341d.lib opencv_features2d341d.lib opencv_flann341d.lib opencv_fuzzy341d.lib opencv_highgui341d.lib opencv_imgcodecs341d.lib opencv_imgproc341d.lib opencv_line_descriptor341d.lib opencv_ml341d.lib opencv_objdetect341d.lib opencv_optflow341d.lib opencv_phase_unwrapping341d.lib opencv_photo341d.lib opencv_plot341d.lib opencv_reg341d.lib opencv_rgbd341d.lib opencv_saliency341d.lib opencv_shape341d.lib opencv_stereo341d.lib opencv_stitching341d.lib opencv_structured_light341d.lib opencv_superres341d.lib opencv_surface_matching341d.lib opencv_text341d.lib opencv_tracking341d.lib opencv_video341d.lib opencv_videoio341d.lib opencv_videostab341d.lib opencv_xfeatures2d341d.lib opencv_ximgproc341d.lib opencv_xobjdetect341d.lib opencv_xphoto341d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\VS2015PROJECT\Graph\x64\Debug\Graph.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\VS2015PROJECT\Graph\x64\Debug\Graph.lib" /MACHINE:X64 x64\Debug\main.obj
+         Graph.vcxproj -> H:\VS2015PROJECT\Graph\x64\Debug\Graph.exe
+     1>已完成生成项目“H:\VS2015PROJECT\Graph\Graph\Graph.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.58
