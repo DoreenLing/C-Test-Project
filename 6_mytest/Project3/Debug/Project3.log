@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018-06-29 21:11:52。
+     1>项目“H:\VS2015PROJECT\Project3\Project3\Project3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BST.cpp
+         BST.cpp
+     1>h:\vs2015project\project3\project3\bst.cpp(43): warning C4715: “BSTline::Insert”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\VS2015PROJECT\Project3\Debug\Project3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"H:\VS2015PROJECT\Project3\Debug\Project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\VS2015PROJECT\Project3\Debug\Project3.lib" /MACHINE:X86 Debug\Backtracking.obj
+         Debug\BackTracking_stack.obj
+         Debug\BinTree.obj
+         Debug\BST.obj
+         Debug\Current.obj
+         Debug\Forest.obj
+         Debug\Heart_Track.obj
+         Debug\josephus.obj
+         Debug\mytest.obj
+         Debug\mytesty.obj
+         Debug\YANGHUItraggle.obj
+         Project3.vcxproj -> H:\VS2015PROJECT\Project3\Debug\Project3.exe
+     1>已完成生成项目“H:\VS2015PROJECT\Project3\Project3\Project3.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.07
