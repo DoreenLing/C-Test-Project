@@ -1,0 +1,8 @@
+﻿  SVR.cpp
+f:\vs2015project\svrtest\svrtest\svr.cpp(67): warning C4474: fscanf: 格式字符串中传递的参数太多
+  f:\vs2015project\svrtest\svrtest\svr.cpp(67): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+f:\vs2015project\svrtest\svrtest\svr.cpp(139): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+f:\vs2015project\svrtest\svrtest\svr.cpp(137): warning C4474: fscanf: 格式字符串中传递的参数太多
+  f:\vs2015project\svrtest\svrtest\svr.cpp(137): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  SVRtest.vcxproj -> F:\VS2015PROJECT\SVRtest\Debug\SVRtest.exe
+  SVRtest.vcxproj -> F:\VS2015PROJECT\SVRtest\Debug\SVRtest.pdb (Partial PDB)
